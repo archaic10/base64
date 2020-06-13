@@ -1,0 +1,75 @@
+
+html{
+    background: #8bb2ec
+}
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:  rgb(5, 78, 112);
+    border-style: outset;
+    margin-top: 0%;
+    border-color: rgb(151, 195, 240);
+    background :#8bb2ec;
+    border-right: none;
+    border-left: none;
+}
+label{
+    color:  rgb(3, 59, 85);
+    font:bold;
+}
+#content{
+    text-align: center; 
+    margin-left: 25%;  
+}
+#box{
+    text-align: center;
+    border-style: outset;    
+    border-radius: 10%;
+   border-color: rgb(151, 195, 240);
+    width: 50vw;
+    background: #8bb2ec;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    
+}
+button{
+ 
+
+    color: rgb(37, 71, 107);
+    border-style: outset;
+    width: 140px;
+    height: 30px;
+    border-radius: 20%;
+   opacity: 0.5;
+   border-top: none;
+   border-right: none;
+   border-left: none;
+
+    border-color: rgb(43, 43, 43) ;
+}
+button:hover{
+    background: rgb(43, 43, 43);
+   color: white;
+   font-size: 100%;
+   font:bold;
+}
+
+#painel{
+    text-align: center;
+    margin-left: 25%;
+    border:none; 
+    width: 50vw;
+    height: 50vh;
+    background: #c2c1c1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-style: outset;   
+    border-radius: 2%;
+    border-color:  rgb(143, 141, 141);
+    border-right: none;
+    border-left: none;
+    opacity: 0.5;
+}
