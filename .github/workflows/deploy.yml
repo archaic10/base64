@@ -15,14 +15,17 @@ jobs:
   deploy-dev:   
     runs-on: ubuntu-latest
     environment: dev
-    name: dev
+    name: development
+    needs: build
     steps:      
-      - name: deploy dev
+      - name: deploy development
         run: echo deployed in dev !
+        
   deploy-hmg:   
     runs-on: ubuntu-latest
     environment: hmg
-    name: hmg
+    name: homologation
+    needs: deploy-dev
     steps:      
-      - name: deploy hmg
+      - name: deploy homologation
         run: echo deployed in hmg !
