@@ -19,7 +19,7 @@ jobs:
     needs: build
     steps:      
       - name: deploy development
-        run: echo deployed in dev !
+        run: echo deployed in development !
         
   deploy-hmg:   
     runs-on: ubuntu-latest
@@ -28,4 +28,4 @@ jobs:
     needs: deploy-dev
     steps:      
       - name: deploy homologation
-        run: echo deployed in hmg !
+        run: echo deployed in homologation !
