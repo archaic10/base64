@@ -18,16 +18,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
       - run: echo Hello, world!
-  deploy-dev:    
-    runs-on: ubuntu-latest
-    environment: dev
-      name: dev
-      url: 'vitor.base64.com'
-      needs: build
-    steps:
-      - name: Run a one-line script
-        run: echo deploy in dev!
-        
+              
   deploy-hmg:    
     runs-on: ubuntu-latest
     environment: hmg
